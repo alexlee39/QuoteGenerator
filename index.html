@@ -7,7 +7,28 @@
     <title>Quote Generator</title>
 </head>
 <body>
-    Welcome to my Quote Generator.
+    <h1> Welcome to Quote Generator</h1>
+<!-- Dropdown Menu: https://www.w3schools.com/Css/css_dropdowns.asp -->
+<!-- Select Menu: https://www.w3schools.com/howto/howto_custom_select.asp -->
+    <div id ="quote-generator">
+        <button class = "btn"> Generate Quote </button>
+            <div class="selector">  
+                <select id = "options">
+                    <option value = "0"> Category </option>
+                    <option value = "1"> Dreams</option>
+                    <option value = "2"> Change</option>
+                    <option value = "3"> Business</option>
+                    <option value = "4"> Success</option>
+                    <option value = "5"> Inspirational</option>
+                    <option value = "6"> Education</option>
+                    <option value = "7"> Equality</option>
+                    <option value = "8"> Future</option>
+                    <option value = "9"> Dating</option>
+                </select>
+            </div>
+    </div>
+
+    <p class = "quote"> This was hidden.</p>
 
     <script src = "index.js"></script>
 </body>
