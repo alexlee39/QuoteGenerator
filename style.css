@@ -1,0 +1,75 @@
+*{
+    box-sizing: 0;
+}
+
+.body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+}
+
+#quote-generator{
+    display: flex;
+    flex-basis: 1;
+    /* justify-content: center; */
+    align-items: center; /*Align all items to be vertically centered*/
+}
+.quote{
+    display: none;
+    /* position: absolute; */
+    /* left: -9999px; */
+    color: blue;
+    /* font-size: 0px; */
+}
+
+.btn{
+    display: block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 5px;
+}
+
+#options{
+    display: block;
+    border: 2px solid black;
+    box-sizing: border-box;
+    margin: 5px;
+    /* padding: 5px; */
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+/* The container must be positioned relative: */
+.selector{
+    position: relative;
+    font-family: Arial;
+  }
+
+/* .selector select {
+    display: none;
+} */
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+    position: absolute;
+    content: "";
+    top: 14px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border: 6px solid transparent;
+    border-color: #fff transparent transparent transparent;
+  }
+
+  /*point the arrow upwards when the select box is open (active):*/
+.select-selected.select-arrow-active:after {
+    border-color: transparent transparent #fff transparent;
+    top: 7px;
+  }
+
+
+/* #options{
+    display: none;
+} */
